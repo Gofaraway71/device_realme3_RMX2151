@@ -1,2 +1,5 @@
 system_internal_prop(cabc_prop)
 system_internal_prop(perf_prop)
+
+type perf_prop, property_type, system_property_type;
+type vendor_camera_prop, property_type;
