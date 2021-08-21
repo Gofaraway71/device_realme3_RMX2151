@@ -53,7 +53,6 @@
 
   <!-- A list of heterogeneous CPU clusters, where the value for each cluster represents the
        number of CPU cores for that cluster.
-
        Ex:
        <array name="cpu.clusters.cores">
          <value>4</value> // cluster 0 has cpu0, cpu1, cpu2, cpu3
@@ -66,7 +65,6 @@
 
     <!-- Different CPU speeds for cluster 0 as reported in
        /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state.
-
        There must be one of these for each cluster, labeled:
        cpu.speeds.cluster0, cpu.speeds.cluster1, etc... -->
   <array name="cpu.core_speeds.cluster0">
