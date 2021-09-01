@@ -30,6 +30,9 @@ on init
     # We only need it to be overridden before things are mounted
     mount none /system/etc/fstab.mt6785 /vendor/etc/fstab.mt6785 bind
 
+    # Update fastcharge firmware
+    write /proc/fastchg_fw_update 1
+
 on fs
     mount_all /vendor/etc/fstab.mt6785 --early
     mount_all /vendor/etc/fstab.mt6785 --late
