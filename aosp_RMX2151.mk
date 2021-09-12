@@ -30,8 +30,8 @@ CUSTOM_BUILD_TYPE=OFFICIAL
 TARGET_FACE_UNLOCK_SUPPORTED := true
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.ppui.device_name=Realme-G95-Series \
-    ro.ppui.version=3.8 \
-    ro.ppui.version_code=Hiraku \
+    ro.ppui.version=3.9 \
+    ro.ppui.version_code=Eternal \
     ro.ppui.is_official=true \
     ro.ppui.maintainer_name=Sauraj
 
