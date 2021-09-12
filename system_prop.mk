@@ -118,5 +118,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # GBoard
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.ime.kb_pad_port_b=1 \
-    ro.com.google.ime.corner_key_r=35
+    ro.com.google.ime.corner_key_r=10
 
