@@ -40,6 +40,11 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# ThemePicker
+PRODUCT_PACKAGES += \
+    ThemePicker \
+    messaging
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
