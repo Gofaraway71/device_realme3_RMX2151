@@ -17,7 +17,7 @@
 DEVICE_PATH := device/realme/RMX2151
 
 # Parts
-$(call inherit-product-if-exists, packages/apps/RealmeParts/parts.mk)
+#$(call inherit-product-if-exists, packages/apps/RealmeParts/parts.mk)
 
 # Installs gsi keys into ramdisk, to boot a GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
@@ -139,10 +139,6 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
-
-# Symbols
-PRODUCT_PACKAGES += \
-    libshim_showlogo
 
 # Vendor overlay
 PRODUCT_COPY_FILES += \
